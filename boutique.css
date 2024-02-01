@@ -1,0 +1,175 @@
+body{
+        
+  background-color: rgb(231, 210, 189);
+  }
+  #myvideo{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }  
+  .logoo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+  #logo2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 1830px;
+    float: right;
+  }
+  .ul1 {
+        position: absolute;
+        
+        margin: 0; 
+        top: 10px; 
+        right: 40px; 
+        display: flex;
+        align-items: center; 
+        text-decoration: none;margin-right: 70px;
+    }
+
+    .ul1 li {
+         text-decoration: none;list-style-type: none;padding: 20px;transition: transform 0.5s;
+    }
+    li:hover{
+      transform: scale(1.5);
+    }
+    .ul2{
+      position: absolute;
+      margin-top: 10px;margin-left: 59px;
+      top: 10px;display: flex;column-gap: 15px;
+      display: flex;
+    }
+    
+    .ul2 li{
+    float: left;list-style-type: none;
+    color: aliceblue;padding: 10px;
+    transition: transform 0.5s;font-size: large;
+    justify-content: space-between;text-decoration: none;
+    
+    }
+    .ul2 li:hover{border: 2px solid #5C8374;
+    border-radius: 5px;
+      transform: scale(1.2);background-color: #5C8374;
+    }
+    .quote{
+      position: absolute;margin-top: 350px;margin-left: 150px;
+      font-family: 'Great Vibes', cursive;font-weight: bolder;font-size: xx-large;
+    }
+    #Bday img{
+      width: 450px;height: 500px;
+position: absolute;
+top: 1150px;
+left: 7%;border: 2px solid #D80032;border-radius: 5px;border-width: 5px;
+padding: 5px;transition: transform 0.5s;
+}
+#Bday img:hover
+{
+transform: scale(1.1);background-color: #D80032;
+}
+
+#purp img{
+width: 450px;height: 500px;
+position: absolute;
+top: 1950px;
+left: 70%;border: 2px solid #D80032;border-radius: 5px;border-width: 5px;
+padding: 5px;transition: transform 0.5s;
+}
+#purp img:hover{
+transform: scale(1.1);background-color: #D80032;
+}
+#anni img{
+width: 450px;height: 500px;
+position: absolute;
+top: 2550px;
+left: 7%;border: 2px solid #D80032;border-radius: 5px;border-width: 5px;
+padding: 5px;transition: transform 0.5s;
+}
+#anni img:hover{
+transform: scale(1.1);background-color: #D80032;
+}
+#BW img{
+width: 450px;height: 500px;
+position: absolute;
+top: 3150px;
+left: 70%;border: 2px solid #D80032;border-radius: 5px;border-width: 5px;
+padding: 5px;transition: transform 0.5s;
+}
+#BW img:hover{
+transform: scale(1.1);background-color: #D80032;
+}
+#Bday h2{
+position: absolute;top: 1270px;
+left: 55%;font-size: 48px;color:#C70039;
+font-family: 'Cinzel', serif;
+
+}
+#Bday p{
+position: absolute;top: 1340px;
+left: 51%;font-size: 35px;color:#141E46;
+font-family: 'Cinzel', serif;
+
+}
+#purp h2{
+position: absolute;top: 2000px;
+left: 15%;font-size: 48px;color:#C70039;
+font-family: 'Cinzel', serif;
+
+}
+#purp p{
+position: absolute;top: 2070px;
+left: 5%;font-size: 35px;color:#141E46;
+font-family: 'Cinzel', serif;
+
+}
+#anni h2{
+position: absolute;top: 2600px;
+left: 55%;font-size: 48px;color:#C70039;
+font-family: 'Cinzel', serif;
+
+}
+#anni p{
+position: absolute;top: 2660px;
+left: 48%;font-size: 35px;color:#141E46;
+font-family: 'Cinzel', serif;
+
+}
+#BW h2{
+position: absolute;top: 3190px;
+left: 15%;font-size: 48px;color:#C70039;
+font-family: 'Cinzel', serif;
+
+}
+#BW p{
+position: absolute;top: 3260px;
+left: 5%;font-size: 35px;color:#141E46;
+font-family: 'Cinzel', serif;
+
+}
+#transparent1 img{
+position: absolute;
+width: 500px;height: 250px;
+top: 1400px;left: 56%;
+}
+#transparent2 img{
+position: absolute;
+width: 600px;height: 250px;
+top: 2150px;left: 7%;
+}
+#transparent3 img{
+position: absolute;
+width: 550px;height: 250px;
+top: 2740px;left: 52%;
+}
+#transparent4 img{
+position: absolute;
+width: 650px;height: 250px;
+top: 3330px;left: 8%;
+}

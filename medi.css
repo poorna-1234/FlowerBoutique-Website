@@ -1,0 +1,56 @@
+@media(max-width:412p){
+
+    .Birthday {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 50px;
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1,0.20fr);
+        
+        
+    }
+    .Birthday img{
+
+        width: 200px;height: 200px;
+     border: 2px solid aliceblue;
+     transition: transform 0.5s;cursor: pointer;
+    }
+    .Birthday img:hover{
+        transform: scale(1.09);
+    }
+    .a-2{
+        border: 2px solid aliceblue;
+        display: flex;flex-flow: column wrap;
+        row-gap: 6px;
+        width: fit-content;height: fit-content;padding: 5px;
+    }
+    .a-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    #single{
+        transition: transform 0.5s;cursor: pointer;
+    }
+    #single:hover{
+        transform: scale(1.2);color: red;
+    }.Birthday {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 40px;
+        display: grid;
+        column-gap: 30px;
+        row-gap: 20px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(4,0.20fr);
+        
+        
+    }
+   
+}
